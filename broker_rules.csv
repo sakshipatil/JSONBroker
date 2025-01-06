@@ -1,0 +1,6 @@
+segmentId,segmentDesc,isActive,section,segmentFeatureRuleId,ruleId,entitlementId,entitlement,effectiveDate,expiryDate,desc,sortOrder,entitlementType
+1.0,CFB users default,True,segments,,,,,,,,,
+1.0,,True,segmentFeatureRules,1.0,1.0,1.0,menu-dashboard,07/01/2022,,,,
+1.0,,True,segmentFeatureRules,2.0,82.0,2.0,menu-commercial-plans,07/01/2022,,,,
+,,,featureEntitlements,,,1.0,menu-dashboard,,,CFB Dashboard,1.0,MENU
+,,,featureEntitlements,,,2.0,menu-commercial-plans,,,Commercial Plans,5.0,MENU

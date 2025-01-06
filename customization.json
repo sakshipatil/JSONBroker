@@ -1,0 +1,47 @@
+{
+    "segments": [
+        {
+            "segmentId": 1,
+            "segmentDesc": "CFB users default",
+            "isActive": true
+        }
+    ],
+    "segmentFeatureRules": [
+        {
+            "segmentFeatureRuleId": 1,
+            "segmentId": 1,
+            "ruleId": 1,
+            "entitlementId": 1,
+            "entitlement": "menu-dashboard",
+            "isActive": true,
+            "effectiveDate": "07/01/2022",
+            "expiryDate": ""
+        },
+        {
+            "segmentFeatureRuleId": 2,
+            "segmentId": 1,
+            "ruleId": 82,
+            "entitlementId": 2,
+            "entitlement": "menu-commercial-plans",
+            "isActive": true,
+            "effectiveDate": "07/01/2022",
+            "expiryDate": ""
+        }
+    ],
+    "featureEntitlements": [
+        {
+            "entitlementId": 1,
+            "entitlement": "menu-dashboard",
+            "desc": "CFB Dashboard",
+            "sortOrder": 1,
+            "entitlementType": "MENU"
+        }
+    ],
+    "rules": [
+        {
+            "ruleId": 1,
+            "isActive": true,
+            "ruleExpression": "/user/roles/lob/text() = 'COMMERCIAL'"
+        }
+    ]
+}
